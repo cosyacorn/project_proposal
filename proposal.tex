@@ -15,9 +15,21 @@ A software system to investigate the properties of spin models on random graphs 
 
 First we need to know what a bipartite graph is. In graph theory, a graph is a set of objects (vertices) where some pairs of objects are connected by links (edges). A bipartite graph is a graph whose vertices can be divided into two disjoint sets $A$ and $B$, such that every edge connects a vertex in $A$ to one in $B$.
 
+The problem is closely related to the Ising model. In the Ising model each latice site is given a spin, up or down, and then in these interact with their neighbouring sites, following rules and the spins develop and may reach a steady state.
+
 \section{Implementation}
+
+For this project each site, of our random bipartite graph, will be given a random spin and will only interact with the vertices that it is connected with. I will write code to simulate the process of this interactions. MPI will be used to parallelise the problem. Various methods of partitioning the graphs will be investigated and the performance of each analysed. The underlying physical meaning of the problem will also be explored.
 
 \section{Plan}
 
+\begin{itemize}
+\item Get familiar with graph theory.
+\item Background reading on various Ising model techniques.
+\item Write general MPI code for the problem.
+\item Specialise the code to look at specific problems.
+\item Analyse performance aspects of the code. In particular the most efficient methods of dividing the graph between processors.
+\item Analyse the physical meaning of the interactions and the results of the simulations.
+\end{itemize}
 
 \end{document}

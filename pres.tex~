@@ -1,0 +1,22 @@
+\documentclass[pdf]{beamer}
+\mode<presentation>{}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\usetheme{Warsaw}
+\usecolortheme{dolphin}
+
+\title{Spin models on random bipartite graphs}
+\author{Shane Harding \\ Supervisor: Mike Peardon}
+
+\begin{document}
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+
+\end{document}

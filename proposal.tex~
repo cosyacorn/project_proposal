@@ -11,4 +11,13 @@
 A software system to investigate the properties of spin models on random graphs will be developed. To facilitate easy parallelism, the project will restrict its attention to bipartite graphs and develop MPI software. An investigation of the best way to partition a random graph into sub-domains to be handled on MPI cores will be carried out. The phase structure of these spin models will be studied in detail.
 \end{abstract}
 
+\section{Background of problem}
+
+First we need to know what a bipartite graph is. In graph theory, a graph is a set of objects (vertices) where some pairs of objects are connected by links (edges). A bipartite graph is a graph whose vertices
+
+\section{Implementation}
+
+\section{Plan}
+
+
 \end{document}

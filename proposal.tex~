@@ -23,12 +23,9 @@ For this project each site, of our random bipartite graph, will be given a rando
 
 \section{Plan}
 
-\begin{itemize}
-\item Get familiar with graph theory.
-\item Background reading on various Ising model techniques.
-\item Write general MPI code for the problem.
-\item Specialise the code to look at specific problems.
-\item 
-\end{itemize}
+A rough outline for what I plan to do during the course of this project is as follows: First, I will get familiar with graph theory and do the background reading on various Ising model techniques. Once a solid understanding has been established I will write a general MPI code for the problem. I expect this to be the most time consuming part of the project. Then I will specialise the code to look at specific problems. These special cases could be graphs with unique or unusual properties that would make for some interesting parallelisation or interesting physics. 
+
+Then I will analyse performance aspects of the code. In particular the most efficient methods of dividing the graph between processors. And finally the physical meaning of the interactions and the results of the simulations will be studied in detail.
+
 
 \end{document}
